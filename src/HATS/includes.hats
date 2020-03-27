@@ -1,0 +1,6 @@
+#include "share/atspre_define.hats"
+#include "share/atspre_staload.hats"
+staload "libats/SATS/athread.sats"
+staload _ = "libats/DATS/athread.dats"
+staload _ = "libats/DATS/athread_posix.dats"
+staload "libats/libc/SATS/unistd.sats"
