@@ -6,7 +6,7 @@ ATSOPT=$(ATSHOMEQ)/bin/patsopt
 ATSFLAGS=
 
 CFLAGS=-DATS_MEMALLOC_LIBC -D_DEFAULT_SOURCE -I $(PATSHOME)/ccomp/runtime -I $(PATSHOME) -O3
-LIBS=-latslib -lpthread
+LIBS=-L $(PATSHOME)/ccomp/atslib/lib -latslib -lpthread
 
 APP     = libats-shared-vt.a
 ifndef STATICLIB
