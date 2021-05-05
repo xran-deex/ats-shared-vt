@@ -1,4 +1,4 @@
-
+#define ATS_PACKNAME "ats-shared-vt"
 #include "./../HATS/includes.hats"
 staload UN = $UNSAFE
 (* ****** ****** *)
